@@ -2,9 +2,6 @@
 
 This project is designed to recognize American Sign Language (ASL) letters using a trained neural network model. The goal is to identify individual ASL hand signs and predict the corresponding alphabet letter.
 
-## Dataset
-[Sign Language MNIST](https://www.kaggle.com/datasets/datamunge/sign-language-mnist/code?datasetId=3258&sortBy=voteCount)
-
 ## Objective
 
 The main objective of this project is to create a deep learning model that can classify images of hand gestures representing letters in ASL. Given an image of a hand sign, the model predicts the corresponding letter from A to Z (excluding 'J').
@@ -115,4 +112,9 @@ This means that the hand gesture in the image was recognized as the letter 'A' i
 - Expand the model to include numbers and more complex hand gestures.
 - Improve preprocessing to handle variations in lighting, hand positioning, and background noise.
 - Implement a real-time recognition system using webcam input.
+
+## Acknowledgments
+[Sign Language MNIST](https://www.kaggle.com/datasets/datamunge/sign-language-mnist/code?datasetId=3258&sortBy=voteCount)
+
+[CNN using Keras(100% Accuracy)](https://www.kaggle.com/code/madz2000/cnn-using-keras-100-accuracy)
 
